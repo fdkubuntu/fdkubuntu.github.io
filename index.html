@@ -1,36 +1,213 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>fdkubuntu.github.io</title>
-    <style>
-      :root { color-scheme: light dark; }
-      body {
-        margin: 0;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        display: grid;
-        place-items: center;
-        min-height: 100vh;
-        background: #0f172a;
-        color: #e2e8f0;
-      }
-      main {
-        max-width: 720px;
-        padding: 32px;
-        text-align: center;
-      }
-      h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
-      p { line-height: 1.6; color: #cbd5e1; }
-      a { color: #7dd3fc; }
-      .muted { font-size: 0.95rem; color: #94a3b8; }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>fdkubuntu.github.io</h1>
-      <p>This site is live.</p>
-      <p class="muted">Bootstrap page created automatically so the GitHub Pages domain can be verified before attaching a custom subdomain.</p>
-    </main>
-  </body>
-</html>
+<!--
+Title: Pixel Portfolio Index HTML File
+Author: Krishnakanth Alagiri (KK)
+Repo: https://github.com/KrishnaAlagiri/Pixel-Portfolio-Webite
+Issues: https://github.com/KrishnaAlagiri/Pixel-Portfolio-Webite/issues
+Description: This file contains all structure of my portfolio page
+-->
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>fdkubuntu | Portfolio
+  </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Retro pixel portfolio site for fdkubuntu.">
+  <meta name="author" content="fdkubuntu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/effects.css">
+  <link rel="stylesheet" href="assets/css/retro.css">
+</head>
+<body>
+  <section id="top" class="hero">
+    <div id="hero-overlay">
+      <section class="navigation">
+        <header>
+        </header>
+      </section>
+      <span id="to-top">
+        <div class="down-arrow floating-arrow">
+          <a href="#about">
+            <i class="fa fa-chevron-down" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        <div class="hero-text" id="fadein hero-overlay">
+          <h1>fdkubuntu
+          </h1>
+          <h2>Retro portfolio in progress
+          </h2>
+          <br>
+          <a href="https://github.com/fdkubuntu" class="btn" target="_blank" rel="noopener noreferrer">View GitHub
+          </a>
+        </div>
+        </div>
+      </span>
+  </section>
+  <section id="about">
+    <h2 class="heading">About
+    </h2>
+    <p>Hi, I'm fdkubuntu. This site now uses a retro pixel portfolio template and is being customized section by section. For now, the main goal is to get a clean GitHub Pages site online before wiring the custom domain.
+    </p>
+  </section>
+  <div id="education" class="background-alt">
+    <h2 class="heading">Background
+    </h2>
+    <div id="education-timeline">
+      <div data-date="September 2010 – July 2015">
+        <h3>Open source and web experiments
+        </h3>
+        <h4>Portfolio starter
+        </h4>
+      </div>
+      <div data-date="August 2015 – April 2017">
+        <h3>Open source and web experiments
+        </h3>
+        <h4>Portfolio starter
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div id="x-education">
+    <h2 class="heading">Notes
+    </h2>
+    <div class="x-education-block shadow">
+      <h3>Current status
+      </h3>
+      <span class="x-education-date">2026
+      </span>
+      <h4>Template installed and site published on GitHub Pages
+      </h4>
+    </div>
+    <div class="x-education-block shadow">
+      <h3>Next step
+      </h3>
+      <span class="x-education-date">Soon
+      </span>
+      <h4>Replace placeholder content with real projects, bio, and links
+      </h4>
+    </div>
+  </div>
+  <div id="projects" class="background-alt">
+    <h2 class="heading">Projects
+    </h2>
+    <div class="container">
+      <div class="row">
+        <div class="project shadow-large">
+          <div class="project-image">
+            <img src="assets/img/fallback.jpg" alt="GitHub Pages launch" />
+          </div>
+          <div class="project-info">
+            <h3>GitHub Pages starter
+            </h3>
+            <p>Initial deployment for the <strong>fdkubuntu.github.io</strong> site using a retro game-inspired template. Lightweight, static, and friendly to GitHub Pages.
+            </p>
+            <a href="https://fdkubuntu.github.io/" target="_blank" rel="noopener noreferrer">View Site
+            </a>
+          </div>
+        </div>
+        <div class="project shadow-large">
+          <div class="project-image">
+            <img src="assets/img/fallback.jpg" alt="GitHub profile" />
+          </div>
+          <div class="project-info">
+            <h3>GitHub profile
+            </h3>
+            <p>Main code and future project links will live on the GitHub account while this portfolio gets filled in with real work and a less placeholder-looking biography.
+            </p>
+            <a href="https://github.com/fdkubuntu" target="_blank" rel="noopener noreferrer">View GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="skills">
+    <h2 class="heading">Skills
+    </h2>
+    <ul>
+      <li>HTML
+      </li>
+      <li>CSS
+      </li>
+      <li>GitHub Pages
+      </li>
+      <li>Git
+      </li>
+      <li>Static Sites
+      </li>
+      <li>Open Domains
+      </li>
+    </ul>
+  </div>
+  <div id="skills" class="background-alt">
+    <h2 class="heading">Stack
+    </h2>
+    <ul>
+      <li>GitHub
+      </li>
+      <li>Cloudflare via Open Domains
+      </li>
+      <li>Responsive static assets
+      </li>
+      <li>Retro UI
+      </li>
+      <li>Custom domain ready
+      </li>
+    </ul>
+  </div>
+  <div id="contact-me">
+    <div id="contact-me-overlay">
+      <h2 class="heading">Contact
+      </h2>
+      <div id="contact-me-form">
+        <form method="POST" action="https://formspree.io/f/xpwdzqga">
+          <input type="hidden" name="_subject" value="Contact request from personal website" />
+          <input type="email" class="shadow" name="_replyto" placeholder="Your email" required>
+          <textarea name="message" class="shadow" placeholder="Your message go here" required>
+          </textarea>
+          <button class="btn" type="submit">Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    </span>
+  <div class="mobile">
+    <p>
+      Built from the Pixel Portfolio template by
+      <a href="https://github.com/bearlike/Pixel-Portfolio-Webite">
+        <span class="fa fa-heart love">
+          </a>
+        </span> for fdkubuntu
+    </p>
+    <div class="social-mob">
+      <a href="https://github.com/fdkubuntu" target="_blank" rel="noopener noreferrer">
+        <img src="assets\img\icons\GitHub.png" alt="Your_Name - GitHub">
+      </a>
+      <a href="https://github.com/fdkubuntu" target="_blank" rel="noopener noreferrer">
+        <img src="assets\img\icons\LinkedIn.png" alt="Your_Name - LinkedIn">
+      </a>
+      <a href="https://fdkubuntu.github.io/" target="_blank" rel="noopener noreferrer">
+        <img src="assets\img\icons\Instagram.png" alt="Your_Name - Instagram">
+      </a>
+      <a href="mailto:fdkubuntu@gmail.com" target="_blank" rel="noopener noreferrer">
+        <img src="assets\img\icons\Mail.png" alt="Your_Name - Mail">
+        </div>
+    </div>
+    <span id="to-top">
+      <div class="up-arrow floating-arrow">
+        <a href="#top">
+          <i class="fa fa-chevron-up" aria-hidden="true">
+          </i>
+        </a>
+      </div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    </body>
+  </html>
