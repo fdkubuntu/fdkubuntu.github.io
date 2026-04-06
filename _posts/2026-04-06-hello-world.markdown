@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello, world 👋
-date: 2026-04-06 12:30:00 +0000
+date: 2026-04-05 12:30:00 +0000
 description: A small introduction, a fresh start, and a few things I care about.
 img: home-page.jpg
 tags: [intro, personal, hello-world]

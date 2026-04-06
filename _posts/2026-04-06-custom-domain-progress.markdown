@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom domain progress
-date: 2026-04-06 11:00:00 +0000
+date: 2026-04-05 11:00:00 +0000
 description: Preparing fdkubuntu.is-cool.dev to point at this site.
 img: mac.jpg
 tags: [domain, open-domains]

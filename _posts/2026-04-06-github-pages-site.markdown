@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Pages site refresh
-date: 2026-04-06 10:00:00 +0000
+date: 2026-04-05 10:00:00 +0000
 description: Moving the site onto a cleaner Jekyll theme for GitHub Pages.
 img: workflow.jpg
 tags: [github-pages, jekyll]
