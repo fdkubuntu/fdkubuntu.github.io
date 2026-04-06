@@ -1,16 +1,18 @@
 title: fdkubuntu
 email: fdkubuntu@gmail.com
 description: >-
-  Personal site of fdkubuntu on GitHub Pages, using the Flexible Jekyll theme.
+  Notes on building, learning, and shipping things on the web — from Montpellier
+  with a soft spot for clean setups and practical ideas.
 baseurl: ""
 url: "https://fdkubuntu.github.io"
 permalink: '/:title/'
 
 author: fdkubuntu
-author-img: profile-placeholder.jpg
+author-img: fdkubuntu-avatar.jpg
 about-author: >-
-  Personal GitHub site for fdkubuntu. Clean, simple, and currently being
-  set up before adding real projects and custom domain polish.
+  Hi, I'm fdkubuntu 👋 I like Linux, tidy workflows, small experiments, and
+  turning rough ideas into something people can actually use. This space is
+  where I share projects, notes, and a few lessons learned along the way.
 social-github: fdkubuntu
 social-email: fdkubuntu@gmail.com
 social-twitter:
